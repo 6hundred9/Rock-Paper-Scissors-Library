@@ -14,11 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright (c) 2024 6hundred9")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A simple API/library built for rock paper scissors")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.4.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.4.0+016155ae35715a961e81aed4905e43f4c984c467")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.4.1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.4.1+08d599814243c44146f148f7d184fb285247d9be")]
 [assembly: System.Reflection.AssemblyProductAttribute("RockPaperScissors")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RockPaperScissors")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.4.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.4.1.0")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/6hundred9/Rock-Paper-Scissors-Library/")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.

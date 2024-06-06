@@ -9,13 +9,15 @@
         <PackageTags>rps;game;library;API;Rock Paper Scissors</PackageTags>
         <Copyright>Copyright (c) 2024 6hundred9</Copyright>
         <RepositoryUrl>https://github.com/6hundred9/Rock-Paper-Scissors-Library/</RepositoryUrl>
-        <PackageReleaseNotes>ttps://github.com/6hundred9/Rock-Paper-Scissors-Library/blob/main/State.cs</PackageReleaseNotes>
+        <PackageReleaseNotes>Added IntToChoice method
+Added ChoiceToInt method
+Updated documentation</PackageReleaseNotes>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageId>6hundred9.RockPaperScissors</PackageId>
         <Authors>6hundred9</Authors>
-        <Version>1.4.0</Version>
+        <Version>1.4.1</Version>
     </PropertyGroup>
     <ItemGroup>
         <None Include="LICENSE.md" Pack="true" PackagePath="LICENSE.md" />
