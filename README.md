@@ -2,8 +2,8 @@
 A Simple NuGet library for rock paper scissors
 
 ### Documentation
-##### RPS Enums
-The [RPS Enums](https://github.com/6hundred9/Rock-Paper-Scissors-Library/blob/main/RPS.cs) are used for what each player chooses
+##### Choice Enums
+The [Choice Enums](https://github.com/6hundred9/Rock-Paper-Scissors-Library/blob/main/RPS.cs) are used for what each player chooses
 ##### State Enums
 The [State Enums](https://github.com/6hundred9/Rock-Paper-Scissors-Library/blob/main/State.cs) are used to determine if player 1 lost, won, or finished with a draw
 ##### Play Method
