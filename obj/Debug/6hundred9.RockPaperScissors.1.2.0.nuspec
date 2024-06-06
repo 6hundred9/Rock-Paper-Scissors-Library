@@ -14,7 +14,7 @@
         Fixed documentation</releaseNotes>
     <copyright>Copyright (c) 2024 6hundred9</copyright>
     <tags>rps game library API Rock Paper Scissors</tags>
-    <repository type="git" url="https://github.com/6hundred9/Rock-Paper-Scissors-Library/" commit="028786dd321848695f9e4ab11e56587fe63ce85f" />
+    <repository type="git" url="https://github.com/6hundred9/Rock-Paper-Scissors-Library/" commit="ec281e174bc4528c43185cd3826da2ef6e7ce85a" />
     <dependencies>
       <group targetFramework="net8.0" />
     </dependencies>

@@ -1,6 +1,6 @@
 ﻿namespace RockPaperScissors;
 
-public enum Rps
+public enum Choice
 {
     Rock,
     Paper,
