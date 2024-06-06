@@ -1,5 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
@@ -7,7 +6,19 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>Rock Paper Scissors API</Title>
         <Description>A simple API/library built for rock paper scissors</Description>
-        <PackageTags>rps</PackageTags>
+        <PackageTags>rps;game;library;API</PackageTags>
+        <Copyright>Copyright (c) 2024 6hundred9</Copyright>
+        <PackageProjectUrl>https://github.com/6hundred9/Rock-Paper-Scissors-Library/</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/6hundred9/Rock-Paper-Scissors-Library/</RepositoryUrl>
+        <PackageReleaseNotes>
+            Added the main function to determine game winner
+            Added RPS enums (Rock, Paper, Scissors)
+            Added State enums (Win, Lose, Draw)
+        </PackageReleaseNotes>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     </PropertyGroup>
-
+    <ItemGroup>
+        <None Include="LICENSE.md" Pack="true" PackagePath="LICENSE.md" />
+    </ItemGroup>
 </Project>

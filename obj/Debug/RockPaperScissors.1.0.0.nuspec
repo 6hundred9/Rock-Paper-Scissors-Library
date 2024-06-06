@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>RockPaperScissors</id>
+    <version>1.0.0</version>
+    <title>Rock Paper Scissors API</title>
+    <authors>RockPaperScissors</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE.md</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <projectUrl>https://github.com/6hundred9/Rock-Paper-Scissors-Library/</projectUrl>
+    <description>A simple API/library built for rock paper scissors</description>
+    <releaseNotes>Added the main function to determine game winner
+            Added RPS enums (Rock, Paper, Scissors)
+            Added State enums (Win, Lose, Draw)</releaseNotes>
+    <copyright>Copyright (c) 2024 6hundred9</copyright>
+    <tags>rps game library API</tags>
+    <repository type="git" url="https://github.com/6hundred9/Rock-Paper-Scissors-Library/" commit="9b11a5424fce121dd7edc8a2db18513110149ee0" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\hp\Documents\GitHub\Rock-Paper-Scissors-Library\bin\Debug\net8.0\RockPaperScissors.dll" target="lib\net8.0\RockPaperScissors.dll" />
+    <file src="C:\Users\hp\Documents\GitHub\Rock-Paper-Scissors-Library\LICENSE.md" target="LICENSE.md" />
+  </files>
+</package>
