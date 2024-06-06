@@ -9,14 +9,13 @@
         <PackageTags>rps;game;library;API;Rock Paper Scissors</PackageTags>
         <Copyright>Copyright (c) 2024 6hundred9</Copyright>
         <RepositoryUrl>https://github.com/6hundred9/Rock-Paper-Scissors-Library/</RepositoryUrl>
-        <PackageReleaseNotes>Made the Play function return which player won
-        Fixed documentation</PackageReleaseNotes>
+        <PackageReleaseNotes>ttps://github.com/6hundred9/Rock-Paper-Scissors-Library/blob/main/State.cs</PackageReleaseNotes>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageId>6hundred9.RockPaperScissors</PackageId>
         <Authors>6hundred9</Authors>
-        <Version>1.3.0</Version>
+        <Version>1.4.0</Version>
     </PropertyGroup>
     <ItemGroup>
         <None Include="LICENSE.md" Pack="true" PackagePath="LICENSE.md" />

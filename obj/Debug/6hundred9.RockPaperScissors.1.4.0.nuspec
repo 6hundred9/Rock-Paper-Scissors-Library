@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>6hundred9.RockPaperScissors</id>
-    <version>1.3.0</version>
+    <version>1.4.0</version>
     <title>Rock Paper Scissors API</title>
     <authors>6hundred9</authors>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -10,8 +10,7 @@
     <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
     <readme>README.md</readme>
     <description>A simple API/library built for rock paper scissors</description>
-    <releaseNotes>Made the Play function return which player won
-        Fixed documentation</releaseNotes>
+    <releaseNotes>ttps://github.com/6hundred9/Rock-Paper-Scissors-Library/blob/main/State.cs</releaseNotes>
     <copyright>Copyright (c) 2024 6hundred9</copyright>
     <tags>rps game library API Rock Paper Scissors</tags>
     <repository type="git" url="https://github.com/6hundred9/Rock-Paper-Scissors-Library/" commit="016155ae35715a961e81aed4905e43f4c984c467" />

@@ -55,4 +55,22 @@ public class RockPaperScissors
     {
         return new Random().NextEnum<Choice>();
     }
+    /// <summary>
+    /// Turns integer into <see cref="Choice"/>
+    /// </summary>
+    /// <param name="choice">the integer for choice</param>
+    /// <returns>the <see cref="Choice"/></returns>
+    public static Choice IntToChoice(int choice)
+    {
+        return (Choice)choice;
+    }
+    /// <summary>
+    /// Turns <see cref="Choice"/> into integer
+    /// </summary>
+    /// <param name="choice">The choice for integer conversion</param>
+    /// <returns>The integer</returns>
+    public static int ChoiceToInt(Choice choice)
+    {
+        return (int)choice;
+    }
 }
