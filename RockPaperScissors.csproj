@@ -8,17 +8,20 @@
         <Description>A simple API/library built for rock paper scissors</Description>
         <PackageTags>rps;game;library;API</PackageTags>
         <Copyright>Copyright (c) 2024 6hundred9</Copyright>
-        <PackageProjectUrl>https://github.com/6hundred9/Rock-Paper-Scissors-Library/</PackageProjectUrl>
         <RepositoryUrl>https://github.com/6hundred9/Rock-Paper-Scissors-Library/</RepositoryUrl>
-        <PackageReleaseNotes>
-            Added the main function to determine game winner
-            Added RPS enums (Rock, Paper, Scissors)
-            Added State enums (Win, Lose, Draw)
-        </PackageReleaseNotes>
+        <PackageReleaseNotes>Updated the README markdown file for documentation
+Fixed a couple metadata settings</PackageReleaseNotes>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageId>6hundred9.RockPaperScissors</PackageId>
+        <Authors>6hundred9</Authors>
+        <Version>1.1.0</Version>
     </PropertyGroup>
     <ItemGroup>
         <None Include="LICENSE.md" Pack="true" PackagePath="LICENSE.md" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="obj\Debug\6hundred9.RockPaperScissors.1.0.0.nuspec" />
     </ItemGroup>
 </Project>

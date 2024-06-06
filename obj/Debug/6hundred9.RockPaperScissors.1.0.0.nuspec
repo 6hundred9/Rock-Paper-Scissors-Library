@@ -1,15 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-    <id>RockPaperScissors</id>
+    <id>6hundred9.RockPaperScissors</id>
     <version>1.0.0</version>
     <title>Rock Paper Scissors API</title>
-    <authors>RockPaperScissors</authors>
+    <authors>6hundred9</authors>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <license type="file">LICENSE.md</license>
     <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
     <readme>README.md</readme>
-    <projectUrl>https://github.com/6hundred9/Rock-Paper-Scissors-Library/</projectUrl>
     <description>A simple API/library built for rock paper scissors</description>
     <releaseNotes>Added the main function to determine game winner
             Added RPS enums (Rock, Paper, Scissors)
