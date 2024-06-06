@@ -14,13 +14,13 @@ public class RockPaperScissors
         {
             return State.Draw;
         }
-        if (player1 == Rps.Rock && player2 == Rps.Scissors ||
-                 player1 == Rps.Paper && player2 == Rps.Rock ||
-                 player1 == Rps.Scissors && player2 == Rps.Paper)
+        
+        if ((player1 == Rps.Rock && player2 == Rps.Scissors) ||
+            (player1 == Rps.Paper && player2 == Rps.Rock) ||
+            (player1 == Rps.Scissors && player2 == Rps.Paper))
         {
-            return State.Win;
+            return State.Player1;
         }
-
-        return State.Lose;
+        return State.Player2;
     }
 }

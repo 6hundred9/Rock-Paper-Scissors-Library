@@ -6,20 +6,21 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>Rock Paper Scissors API</Title>
         <Description>A simple API/library built for rock paper scissors</Description>
-        <PackageTags>rps;game;library;API</PackageTags>
+        <PackageTags>rps;game;library;API;Rock Paper Scissors</PackageTags>
         <Copyright>Copyright (c) 2024 6hundred9</Copyright>
         <RepositoryUrl>https://github.com/6hundred9/Rock-Paper-Scissors-Library/</RepositoryUrl>
-        <PackageReleaseNotes>Updated the README markdown file for documentation
-Fixed a couple metadata settings</PackageReleaseNotes>
+        <PackageReleaseNotes>Made the Play function return which player won
+        Fixed documentation</PackageReleaseNotes>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageId>6hundred9.RockPaperScissors</PackageId>
         <Authors>6hundred9</Authors>
-        <Version>1.1.0</Version>
+        <Version>1.2.0</Version>
     </PropertyGroup>
     <ItemGroup>
         <None Include="LICENSE.md" Pack="true" PackagePath="LICENSE.md" />
+        <None Include="README.md" Pack="true" PackagePath="README.md" />
     </ItemGroup>
     <ItemGroup>
       <Content Include="obj\Debug\6hundred9.RockPaperScissors.1.0.0.nuspec" />

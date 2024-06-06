@@ -2,7 +2,7 @@
 
 public enum State
 {
-    Win,
-    Lose,
+    Player1,
+    Player2,
     Draw,
 }

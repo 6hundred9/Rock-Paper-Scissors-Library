@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>6hundred9.RockPaperScissors</id>
+    <version>1.1.0</version>
+    <title>Rock Paper Scissors API</title>
+    <authors>6hundred9</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE.md</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <readme>README.md</readme>
+    <description>A simple API/library built for rock paper scissors</description>
+    <releaseNotes>Updated the README markdown file for documentation
+Fixed a couple metadata settings</releaseNotes>
+    <copyright>Copyright (c) 2024 6hundred9</copyright>
+    <tags>rps game library API</tags>
+    <repository type="git" url="https://github.com/6hundred9/Rock-Paper-Scissors-Library/" commit="028786dd321848695f9e4ab11e56587fe63ce85f" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+    <contentFiles>
+      <files include="any/net8.0/obj/Debug/6hundred9.RockPaperScissors.1.0.0.nuspec" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\hp\Documents\GitHub\Rock-Paper-Scissors-Library\bin\Debug\net8.0\RockPaperScissors.dll" target="lib\net8.0\RockPaperScissors.dll" />
+    <file src="C:\Users\hp\Documents\GitHub\Rock-Paper-Scissors-Library\obj\Debug\6hundred9.RockPaperScissors.1.0.0.nuspec" target="content\obj\Debug\6hundred9.RockPaperScissors.1.0.0.nuspec" />
+    <file src="C:\Users\hp\Documents\GitHub\Rock-Paper-Scissors-Library\obj\Debug\6hundred9.RockPaperScissors.1.0.0.nuspec" target="contentFiles\any\net8.0\obj\Debug\6hundred9.RockPaperScissors.1.0.0.nuspec" />
+    <file src="C:\Users\hp\Documents\GitHub\Rock-Paper-Scissors-Library\LICENSE.md" target="LICENSE.md" />
+    <file src="C:\Users\hp\Documents\GitHub\Rock-Paper-Scissors-Library\README.md" target="README.md" />
+  </files>
+</package>
