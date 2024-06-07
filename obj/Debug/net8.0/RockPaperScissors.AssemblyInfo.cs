@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright (c) 2024 6hundred9")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A simple API/library built for rock paper scissors")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.4.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.4.1+1fd570e9f2b0c068fb1e286bc21a7d348d9a095e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.4.1+a87f4c9c7d5dd91dd58c7c07259a385cb5e087ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("RockPaperScissors")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RockPaperScissors")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.4.1.0")]

@@ -34,6 +34,10 @@ public class RockPaperScissors
     /// <returns>Draw, Win or Lose from the perspective of player 1</returns>
     public static State Play(int player1, int player2)
     {
+        if (player1 > 2 || player1 < 0 || player2 > 2 || player2 < 0)
+        {
+            throw new ArgumentOutOfRangeException("Player choice must be between 0 and 2");
+        }
         if (player1 == player2)
         {
             return State.Draw;
