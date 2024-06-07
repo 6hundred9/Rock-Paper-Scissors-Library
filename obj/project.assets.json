@@ -8,19 +8,27 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\hp\\.nuget\\packages\\": {}
+    "C:\\Users\\66hun\\.nuget\\packages\\": {},
+    "C:\\Users\\66hun\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "2.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Documents\\GitHub\\Rock-Paper-Scissors-Library\\RockPaperScissors.csproj",
+      "projectUniqueName": "C:\\Users\\66hun\\Documents\\GitHub\\Rock-Paper-Scissors-Library\\RockPaperScissors.csproj",
       "projectName": "6hundred9.RockPaperScissors",
-      "projectPath": "C:\\Users\\hp\\Documents\\GitHub\\Rock-Paper-Scissors-Library\\RockPaperScissors.csproj",
-      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\Documents\\GitHub\\Rock-Paper-Scissors-Library\\obj\\",
+      "projectPath": "C:\\Users\\66hun\\Documents\\GitHub\\Rock-Paper-Scissors-Library\\RockPaperScissors.csproj",
+      "packagesPath": "C:\\Users\\66hun\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\66hun\\Documents\\GitHub\\Rock-Paper-Scissors-Library\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Users\\66hun\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\66hun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\66hun\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +69,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\66hun\\.dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
