@@ -1,10 +1,13 @@
-﻿using RockPaperScissors.Extensions;
+﻿using System.Collections;
+using System.Diagnostics.CodeAnalysis;
+using RockPaperScissors.Extensions;
 
 namespace RockPaperScissors;
 
 public class RockPaperScissors
 {
-
+    public static int Player1Score { get; private set; }
+    public static int Player2Score { get; private set; }
     /// <summary>
     /// Decides who won the game of Rock Paper Scissors using <see cref="Choice"/>
     /// </summary>
@@ -42,15 +45,11 @@ public class RockPaperScissors
         {
             throw new ArgumentOutOfRangeException("Player choice must be between 0 and 2 (including 2)");
         }
-        if (player1 == null || player2 == null)
-        {
-            throw new ArgumentNullException("Player choice cannot be null");
-        }
         if (player1 == player2)
         {
             return State.Draw;
         }
-        
+
         if ((player1 == 0 && player2 == 2) ||
             (player1 == 1 && player2 == 0) ||
             (player1 == 2 && player2 == 1))
@@ -84,5 +83,42 @@ public class RockPaperScissors
     public static int ChoiceToInt(Choice choice)
     {
         return (int)choice;
+    }
+
+    /// <summary>
+    /// Starts a game of rock paper scissors
+    /// </summary>
+    /// <param name="player1">What player 1 choose (doesn't have to be used if player1IsHuman is false)</param>
+    /// <param name="player2">What player 1 choose (doesn't have to be used if player1IsHuman is false)</param>
+    /// <param name="loops">(false if null) Whether the game loops or not (false for one-time gameplay)</param>
+    /// <param name="player1IsHuman">If false, player 1's choice will be randomized</param>
+    /// <param name="player2IsHuman">If false, player 2's choice will be randomized</param>
+    /// <returns>In order: Player 1 score, player 2 score, player 1 choice, player 2 choice, game state (player1, player2, draw)</returns>
+    public static List<object> Main(Choice? player1, Choice? player2, bool? loops,  bool player1IsHuman = true, bool player2IsHuman = false)
+    {
+        Choice p1 = ChooseRandom();
+        Choice p2 = ChooseRandom();
+        if (!player1IsHuman) p1 = ChooseRandom();
+        else if (player1 != null) p1 = player1.Value;
+        if (!player2IsHuman) p2 = ChooseRandom();
+        else if (player2 != null) p2 = player2.Value;
+        State state;
+        if (loops.HasValue && loops.Value)
+        {
+            for (;;)
+            {
+                p1 = !player1IsHuman ? ChooseRandom() : player1.Value;
+                p2 = !player2IsHuman ? ChooseRandom() : player2.Value;
+                state = Play(p1, p2);
+                if (state == State.Player1) Player1Score++;
+                else if (state == State.Player2) Player2Score++;
+                return new() { Player1Score, Player2Score, p1, p2, state };
+            }
+        }
+        state = Play(p1, p2);
+        if (state == State.Player1) Player1Score++;
+        else if (state == State.Player2) Player2Score++;
+
+        return new() { Player1Score, Player2Score, p1, p2, state };
     }
 }
