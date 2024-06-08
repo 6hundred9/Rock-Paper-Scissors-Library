@@ -10,3 +10,15 @@ C:\Users\hp\Documents\GitHub\Rock-Paper-Scissors-Library\obj\Debug\net8.0\RockPa
 C:\Users\hp\Documents\GitHub\Rock-Paper-Scissors-Library\obj\Debug\net8.0\refint\RockPaperScissors.dll
 C:\Users\hp\Documents\GitHub\Rock-Paper-Scissors-Library\obj\Debug\net8.0\RockPaperScissors.pdb
 C:\Users\hp\Documents\GitHub\Rock-Paper-Scissors-Library\obj\Debug\net8.0\ref\RockPaperScissors.dll
+C:\Users\66hun\Documents\GitHub\Rock-Paper-Scissors-Library\bin\Debug\net8.0\RockPaperScissors.deps.json
+C:\Users\66hun\Documents\GitHub\Rock-Paper-Scissors-Library\bin\Debug\net8.0\RockPaperScissors.dll
+C:\Users\66hun\Documents\GitHub\Rock-Paper-Scissors-Library\bin\Debug\net8.0\RockPaperScissors.pdb
+C:\Users\66hun\Documents\GitHub\Rock-Paper-Scissors-Library\obj\Debug\net8.0\RockPaperScissors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\66hun\Documents\GitHub\Rock-Paper-Scissors-Library\obj\Debug\net8.0\RockPaperScissors.AssemblyInfoInputs.cache
+C:\Users\66hun\Documents\GitHub\Rock-Paper-Scissors-Library\obj\Debug\net8.0\RockPaperScissors.AssemblyInfo.cs
+C:\Users\66hun\Documents\GitHub\Rock-Paper-Scissors-Library\obj\Debug\net8.0\RockPaperScissors.csproj.CoreCompileInputs.cache
+C:\Users\66hun\Documents\GitHub\Rock-Paper-Scissors-Library\obj\Debug\net8.0\RockPaperScissors.sourcelink.json
+C:\Users\66hun\Documents\GitHub\Rock-Paper-Scissors-Library\obj\Debug\net8.0\RockPaperScissors.dll
+C:\Users\66hun\Documents\GitHub\Rock-Paper-Scissors-Library\obj\Debug\net8.0\refint\RockPaperScissors.dll
+C:\Users\66hun\Documents\GitHub\Rock-Paper-Scissors-Library\obj\Debug\net8.0\RockPaperScissors.pdb
+C:\Users\66hun\Documents\GitHub\Rock-Paper-Scissors-Library\obj\Debug\net8.0\ref\RockPaperScissors.dll
