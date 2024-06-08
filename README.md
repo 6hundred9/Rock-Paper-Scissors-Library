@@ -44,12 +44,11 @@ Arguments: A [choice](Choice.cs)
 
 Returns: The integer of the [choice](Choice.cs)
 ##### Main Method
-Definition: `public static List<object> Main(Choice? player1, Choice? player2, bool? loops,  bool player1IsHuman = true, bool player2IsHuman = false)`
+Definition: `public static List<object> Main(Choice? player1, Choice? player2, bool player1IsHuman = true, bool player2IsHuman = false)`
 
 Arguements:
 * player1: What the choice of player 1 was, not used if player1IsHuman is false, random if null.
 * player2: What the choice of player 2 was, not used if player2IsHuman is false, random if null
-* loops: Whether the game loops or not, false if null
 * player1IsHuman: Whether player 1 input will be randomized or not
 * player2IsHuman: Whether player 2 input will be randomized or not
 
