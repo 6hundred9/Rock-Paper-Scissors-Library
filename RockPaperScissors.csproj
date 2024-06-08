@@ -9,15 +9,14 @@
         <PackageTags>rps;game;library;API;Rock Paper Scissors</PackageTags>
         <Copyright>Copyright (c) 2024 6hundred9</Copyright>
         <RepositoryUrl>https://github.com/6hundred9/Rock-Paper-Scissors-Library/</RepositoryUrl>
-        <PackageReleaseNotes>Big update!
-Created a main function for the library so your code can be shorter and simpler!
-Updated docs</PackageReleaseNotes>
+        <PackageReleaseNotes>Small bugfix (removed the loops arguement from the main method)
+Updated documentation</PackageReleaseNotes>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageId>6hundred9.RockPaperScissors</PackageId>
         <Authors>6hundred9</Authors>
-        <Version>2.0</Version>
+        <Version>2.1.0</Version>
     </PropertyGroup>
     <ItemGroup>
         <None Include="LICENSE.md" Pack="true" PackagePath="LICENSE.md" />
